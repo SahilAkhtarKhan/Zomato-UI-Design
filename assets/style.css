@@ -416,12 +416,14 @@ h2 {
   top: 105px;
   font-size: 15px;
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
+  grid-template-columns: 70% 30%;
 }
 
 .shop-name h3 {
   margin: 18px 0 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .food-rating {
@@ -442,6 +444,9 @@ h2 {
   margin: 5px 0 0 0;
   color: gray;
   font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .rate-of-food p {
   margin: 5px 0 0 0;
